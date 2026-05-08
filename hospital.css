@@ -1,0 +1,174 @@
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+}
+.navabar{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+
+}
+.logo-path{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+    margin:10px 10px;
+    margin-left:10px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+  gap: 20px;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    
+}
+.btn{
+    padding-top: 10px;
+    color: blue;
+}
+.btn button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.main-content{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('image-2.jpg');
+    color: white;
+
+}
+.he h1{
+    text-align: center;
+    font-size: 40px;
+}
+.he p{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+    color:whitesmoke;
+}
+.he button{
+margin-left: 50px;
+margin-top:150px ;
+padding:10px 10px;
+border-radius: 10px;
+}
+.card-section{
+    margin: top;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.card-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 30px;
+     gap:50px;
+}
+.card-1{
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    padding: 20px;
+    border: solid;
+    border-radius: 15px;
+}
+.card-1 p{
+    margin-top: 50px;
+}
+.card-1:hover{
+    background-color:lightcoral;
+    color: black;
+}
+.card-2{
+    height:200px;
+    width: 250px;
+    background-color: aqua;
+    padding:20px;
+    border:solid;
+    border-radius:15px;
+}
+.card-2 p{
+    margin-top: 50px;
+}
+.card-2:hover{
+    background-color: lightcoral;
+    color: black;
+}
+.card-3{
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    padding: 20px;
+    border: solid;
+    border-radius: 15px;
+}
+.card-3 p{
+    margin-top: 50px;
+}
+.card-3:hover{
+    background-color: lightcoral;
+    color: black;
+}
+.pop img{
+    height: 400px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+.pop{
+    display: flex;
+    background-color: lightblue;
+    margin-top: 50px;
+}
+.ss p {
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+.footer-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    color: white;
+    height:200px;
+    width: 100%;
+    margin-top: 40px;
+}
+.footer-links li{
+    list-style: none;
+}
+.footer-links a{
+     text-decoration:none;
+     color: white;
+}
